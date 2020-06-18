@@ -1,45 +1,46 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/png" href="img/simple_logo.png">
+    <link rel="icon" type="image/png" href="./img/simple_logo.png">
     <link href="//fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Звездные Войны IX</title>
 </head>
 
 <body>
+    <canvas id="canvas" style="width: 100%; height: 100%; padding: 0;margin: 0;">
+    </canvas>
     <div class="container">
         <header class="header">
-            <img src="./img/logo.png" alt="StarWars" class="logo header__logo">
+            <img src="./img/starwarslogo.png" alt="StarWars" class="logo header__logo">
             <nav class="nav">
 
             </nav>
         </header>
         <main>
             <div class="hero">
-                <span class="hero__subtitle ">Эпизод IX</span>
-                <h1 class="hero__title">Скайуокер. Восход</h1>
+                <span class="hero__subtitle ">Episode IX:</span>
+                <h1 class="hero__title">The Rise of Skywalker</h1>
                 <p class="hero__description">
-                    Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный
-                    финал фантастической саги
-                </p>
-                <span class="hero__premier">Премьера</span>
-                <span class="hero__date">19 декабря 2019</span>
+                    The battle between the Jedi and the Sith comes to a thrilling conclusion in this final chapter of the Skywalker Saga. A year following the events of The Last Jedi, the remaining members of the Resistance are forced to confront their past while taking
+                    on the First Order one more time. </p>
+                <span class="hero__premier">Release date</span>
+                <span class="hero__date">December 16, 2019</span>
                 <div class="">
-                    <a href="https://www.youtube.com/watch?v=HfnINdtw_8E" data-fancybox class="button-play hero__button-play">Смотреть трейлер</a>
+                    <a href="https://www.youtube.com/watch?v=8Qn_spdM5Zg" data-fancybox class="button-play hero__button-play">Watch trailer</a>
                 </div>
             </div>
             <div class="episodes">
-                <h2 class="episodes__title">Предыдущие эпизоды</h2>
+                <h2 class="episodes__title">Previous episodes</h2>
                 <div class="owl-carousel slider">
                     <div class="slider__item">
                         <div class="slider__year">1977</div>
-                        <h3 class="slider__title">Эпизод IV: <br> Новая надежда</h3>
+                        <h3 class="slider__title">Episode IV: <br>A New Hope</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -53,9 +54,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">1980</div>
-                        <h3 class="slider__title">Эпизод V: <br> Империя наносит ответный удар</h3>
+                        <h3 class="slider__title">Episode V: <br>The Empire Strikes Back</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -69,9 +70,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">1983</div>
-                        <h3 class="slider__title">Эпизод VI: <br> Возвращение джедая</h3>
+                        <h3 class="slider__title">Episode VI: <br>Return of the Jedi</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                                 <i class="star"></i>
                                 <i class="star"></i>
@@ -85,9 +86,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">1999</div>
-                        <h3 class="slider__title">Эпизод I: <br> Скрытая угроза</h3>
+                        <h3 class="slider__title">Episode I: <br> The Phantom Menace</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -101,9 +102,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">2002</div>
-                        <h3 class="slider__title">Эпизод II: <br> Атака клонов</h3>
+                        <h3 class="slider__title">Episode II: <br> Attack of the Clones</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -117,9 +118,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">2005</div>
-                        <h3 class="slider__title">Эпизод III: <br> Месть Ситхов</h3>
+                        <h3 class="slider__title">Episode III: <br> Revenge of the Sith</h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -133,9 +134,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">2015</div>
-                        <h3 class="slider__title">Эпизод VII: <br> Пробуждение силы</h3>
+                        <h3 class="slider__title">Episode VII: <br> The Force Awakens </h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
@@ -149,9 +150,9 @@
                     </div>
                     <div class="slider__item">
                         <div class="slider__year">2017</div>
-                        <h3 class="slider__title">Эпизод VIII: <br> Последние джедаи</h3>
+                        <h3 class="slider__title">Episode VIII: <br> The Last Jedi </h3>
                         <div class="slider__rating">
-                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-label">Rating</span>
                             <span class="slider__rating-stars">
                               <i class="star"></i>
                               <i class="star"></i>
